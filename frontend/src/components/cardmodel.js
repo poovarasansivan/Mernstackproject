@@ -62,7 +62,7 @@ export default function Cardmodel() {
 
   const fetchinsightname = async () => {
     try {
-      const response = await fetch("https://mernstackproject-apis.vercel.app/getinsightname");
+      const response = await fetch("http://localhost:5555/getinsightname");
       const data = await response.json();
       setInsightname(data);
     } catch (error) {
@@ -72,7 +72,7 @@ export default function Cardmodel() {
 
   const fetchOverallCount = async () => {
     try {
-      const response = await fetch("https://mernstackproject-apis.vercel.app/insightcount");
+      const response = await fetch("http://localhost:5555/insightcount");
       const data = await response.json();
       setOverallCount(data.overallTotalCount);
     } catch (error) {
@@ -82,7 +82,7 @@ export default function Cardmodel() {
 
   const fetchAverageIntensity = async () => {
     try {
-      const response = await fetch("https://mernstackproject-apis.vercel.app/getintensity");
+      const response = await fetch("http://localhost:5555/getintensity");
       const data = await response.json();
       setaverageIntensity(data);
     } catch (error) {
@@ -92,7 +92,7 @@ export default function Cardmodel() {
 
   const fetchAverageRelevance = async () => {
     try {
-      const response = await fetch("https://mernstackproject-apis.vercel.app/getrelevance");
+      const response = await fetch("http://localhost:5555/getrelevance");
       const data = await response.json();
       setaverageRelevance(data);
     } catch (error) {
