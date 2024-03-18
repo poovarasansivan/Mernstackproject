@@ -1,0 +1,87 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\poova\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @apexcharts/react apexcharts
+
+PATH: 
+  C:\Users\poova\miniconda3;C:\Users\poova\miniconda3\Library\mingw-w64\bin;C:\Users\poova\miniconda3\Library\usr\bin;C:\Users\poova\miniconda3\Library\bin;C:\Users\poova\miniconda3\Scripts;C:\Users\poova\miniconda3\bin;C:\Users\poova\miniconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts;C:\Python311;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Go\bin;C:\src\flutter\bin;C:\Users\poova\AppData\Local\Pub\Cache\bin;C:\Program Files\PuTTY;C:\Program Files\php-8.2.12;C:\ProgramData\ComposerSetup\bin;C:\Users\poova\AppData\Local\jdk-11.0.2\bin;C:\src\flutter\bin;C:\Users\poova\AppData\Local\Android\Sdk\platform-tools;C:\Users\poova\AppData\Local\Android\Sdk\tools;C:\Users\poova\AppData\Local\Android\Sdk\platform-tools;C:\Users\poova\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk-17\bin;C:\Users\poova\AppData\Local\Microsoft\WindowsApps;C:\Users\poova\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\poova\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\platform-tools_r34.0.4-windows\platform-tools;C:\Users\poova\go\bin;D:\java\bin;C:\src\flutter\bin;C:\Program Files\nodejs;C:\Users\poova\AppData\Roaming\Composer\vendor\bin;C:\src\flutter\bin;C:\Users\poova\miniconda3;C:\Users\poova\miniconda3\Scripts;.
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@apexcharts%2freact: Not found
+      at params.callback [as _callback] (C:\Users\poova\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\poova\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (C:\Users\poova\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (C:\Users\poova\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.11.4",
+      "@emotion/styled": "^11.11.0",
+      "@mui/icons-material": "^5.15.13",
+      "@mui/material": "^5.15.13",
+      "@mui/x-charts": "^6.19.5",
+      "@mui/x-data-grid": "^6.19.6",
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "apexcharts": "^3.47.0",
+      "lucide-react": "^0.358.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^5.0.1",
+      "react-router": "^6.22.3",
+      "react-router-dom": "^6.22.3",
+      "react-scripts": "^5.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "tailwindcss": "^3.4.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
