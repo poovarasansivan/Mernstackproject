@@ -23,7 +23,7 @@ export default function PieChartWithCustomizedLabel() {
   useEffect(() => {
     const getSectorData = async () => {
       try {
-        const response = await fetch("http://localhost:5555/sectorsfreq");
+        const response = await fetch("https://mernstackproject-apis.vercel.app/sectorsfreq");
         const sectorsData = await response.json();
         const transformedData = sectorsData.map(
           ({ sector, percentage }, index) => ({
