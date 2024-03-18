@@ -20,7 +20,7 @@ export default function Country() {
 
   const fetchSectors = async () => {
     try {
-      const response = await fetch("http://localhost:5555/getsectors");
+      const response = await fetch("https://mernstackproject-apis.vercel.app/getsectors");
       const data = await response.json();
       console.log(data);
       setcountry(data);
