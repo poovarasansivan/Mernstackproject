@@ -83,7 +83,7 @@ export default function Chartcountry() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:5555/getcountry");
+      const response = await fetch("https://mernstackproject-apis.vercel.app/getcountry");
       const result = await response.json();
       setData(result);
     } catch (error) {
@@ -93,7 +93,7 @@ export default function Chartcountry() {
 
   const fetchregion = async () => {
     try {
-      const response = await fetch("http://localhost:5555/getregion");
+      const response = await fetch("https://mernstackproject-apis.vercel.app/getregion");
       const region = await response.json();
       setRegion(region);
     } catch (error) {
