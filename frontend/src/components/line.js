@@ -13,7 +13,7 @@ export default function Line() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:5555/Intensityyear");
+      const response = await fetch("https://mernstackproject-apis.vercel.app/Intensityyear");
       const data = await response.json();
       setApiData(data);
     } catch (error) {
