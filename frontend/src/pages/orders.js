@@ -1,0 +1,10 @@
+import React from "react";
+import PageNotFound from "../components/404.js";
+
+export default function orders() {
+  return (
+    <div>
+      <PageNotFound />
+    </div>
+  );
+}
