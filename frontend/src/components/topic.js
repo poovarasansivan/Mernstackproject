@@ -13,7 +13,7 @@ const Overalldata = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:5555/getdata"); // Adjust the URL based on your backend API endpoint
+      const response = await fetch("https://mernstackproject-apis.vercel.app/getdata"); // Adjust the URL based on your backend API endpoint
       if (!response.ok) {
         throw new Error("Failed to fetch data");
       }
